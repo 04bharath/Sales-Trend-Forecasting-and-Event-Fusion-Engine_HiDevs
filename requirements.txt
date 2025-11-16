@@ -1,1 +1,17 @@
-# Add your project dependencies here
+# Core Data Science & ML
+numpy==1.24.3
+pandas==2.0.3
+scikit-learn==1.3.0
+xgboost==1.7.5
+
+# Web Framework & UI
+streamlit==1.28.0
+
+# Visualization
+plotly==5.15.0
+
+# Date/Time Handling
+python-dateutil==2.8.2
+
+# Utilities
+joblib==1.3.2
