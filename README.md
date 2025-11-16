@@ -28,7 +28,24 @@ AI Sales Predictor Pro is an enterprise-grade retail forecasting system that use
 **Scenario Analysis:** What-if predictions for different conditions
 
 # Architecture
-Data Sources → XGBoost Model → Streamlit App → Business Insights
-     ↓              ↓              ↓              ↓
-Historical     ML Training    Web Interface   Predictions +
-Sales Data     & Prediction   + NLP Parser    Recommendations
+Data Sources → Historical Sales Data 
+XGBoost Model →  ML Training & Prediction
+Streamlit App → Web Interface +  NLP Parser
+Business Insights →  Predictions +  Recommendations
+
+# Data Format
+**Column**
+date	→  Transaction date
+store_id	→ Store identifier
+region	→ Geographic region
+product_id  →	Product identifier
+sales  →	Units sold (target)
+price  →	Product price
+promo_flag  →	Promotion indicator (0/1)
+promo_depth  →	Discount percentage
+holiday_flag →	Holiday indicator (0/1)
+holiday_name →	Holiday name
+temp_c →	Temperature in Celsius
+precipitation_mm →	Rainfall in mm
+stock_available →	Inventory count
+competitor_price →	Competitor's price
